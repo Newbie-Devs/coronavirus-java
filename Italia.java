@@ -33,7 +33,7 @@ public class Italia
       g3.totali =  2502;
       
       Italia g4 = new Italia();
-      g4.positvi = 2706;
+      g4.positivi = 2706;
       g4.guariti =  276;
       g4.morti =  107;
       g4.totali =  3089;  
@@ -57,7 +57,7 @@ public class Italia
       g7.totali =  5883;
       
       Italia g8 = new Italia();
-      g8.positvi = 6387;
+      g8.positivi = 6387;
       g8.guariti =  622;
       g8.morti =  366;
       g8.totali =  7375;
