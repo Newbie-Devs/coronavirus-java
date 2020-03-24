@@ -1,10 +1,11 @@
 import java.util.Scanner;
 
+
 /**
  * @author fededev01
  *
  * 
- * @version 1.0.5
+ * @version 1.0.6
  */
 public class Italia
 {
@@ -140,12 +141,26 @@ public class Italia
       g22.morti = 5476 ;
       g22.totali = 59138 ;
       
+      Italia g23 = new Italia();
+      g23.positivi = 50418 ;
+      g23.guariti = 7432 ;
+      g23.morti = 6077 ;
+      g23.totali = 63927 ;
+        
+      Italia g24 = new Italia();
+      g24.positivi = 54030 ;
+      g24.guariti = 8326 ;
+      g24.morti = 6820 ;
+      g24.totali = 69176 ;  
+        
       Scanner date =new Scanner (System.in);
       System.out.println("Scrivi il numero del giorno del bollettino che vuoi ti venga mostrato");
       Integer newDate = date.nextInt();
       
-      int myvar = newDate;
-      
+      if(newDate>31) {
+        System.out.println("Non è stato trovato alcun bollettino corrispondente al giorno da lei richiesto.");
+           } 
+
       switch (newDate) {
        
       case 1:
@@ -318,6 +333,22 @@ public class Italia
       System.out.println(g22.guariti + " guariti");
       System.out.println(g22.morti + " morti");
       System.out.println(g22.totali + " casi totali");
+      break;
+              
+      case 23:
+      System.out.println("Bollettino del 23/03");
+      System.out.println(g23.positivi + " positivi");
+      System.out.println(g23.guariti + " guariti");
+      System.out.println(g23.morti + " morti");
+      System.out.println(g23.totali + " casi totali");
+      break;        
+      
+      case 24:
+      System.out.println("Bollettino del 24/03");
+      System.out.println(g24.positivi + " positivi");
+      System.out.println(g24.guariti + " guariti");
+      System.out.println(g24.morti + " morti");
+      System.out.println(g24.totali + " casi totali");
       break;
         }
       
