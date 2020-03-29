@@ -63,6 +63,8 @@ public class Italia
       g8.morti =  366;
       g8.totali =  7375;
       
+// Non ho trovato nessun bollettino per il giorno 9 marzo, quindi questa parte di codice sarà vuota
+
       Italia g10 = new Italia();
       g10.positivi = 8514;
       g10.guariti = 1004;
