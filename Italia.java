@@ -13,8 +13,11 @@ public class Italia
       int guariti ;
       int morti ;
       int totali ;
+//this create an object named Italia with arguments positivi, Guariti, morti, totali
     public static void main(String[] args) {
         
+
+//every g is an object that corresponding to a day e.g. g1 is 1 march
       Italia g1 = new Italia();
       g1.positivi = 1577;
       g1.guariti = 83;
@@ -154,17 +157,62 @@ public class Italia
       g24.guariti = 8326 ;
       g24.morti = 6820 ;
       g24.totali = 69176 ;  
+
+      Italia g25 = new Italia();
+      g25.positivi = ;
+      g25.guariti = ;
+      g25.morti = ;
+      g25.totali = ;
+
+      Italia g26 = new Italia();
+      g26.positivi = ;
+      g26.guariti = ;
+      g26.morti = ;
+      g26.totali = ;
+
+      Italia g27 = new Italia();
+      g27.positivi = ;
+      g27.guariti = ;
+      g27.morti = ;
+      g27.totali = ;
+
+      Italia g28 = new Italia();
+      g28.positivi = ;
+      g28.guariti = ;
+      g28.morti = ;
+      g28.totali = ;
+
+      Italia g29 = new Italia();
+      g29.positivi = ;
+      g29.guariti = ;
+      g29.morti = ;
+      g29.totali = ;
+
+      Italia g30 = new Italia();
+      g30.positivi = ;
+      g30.guariti = ;
+      g30.morti = ;
+      g30.totali = ;
+
+      Italia g31 = new Italia();
+      g31.positivi = ;
+      g31.guariti = ;
+      g31.morti = ;
+      g31.totali = ;
         
       Scanner date =new Scanner (System.in);
       System.out.println("Scrivi il numero del giorno del bollettino che vuoi ti venga mostrato");
       Integer newDate = date.nextInt();
-      
+ //this creates a scanner to get a number from the user     
+
+
       if(newDate>31) {
         System.out.println("Non è stato trovato alcun bollettino corrispondente al giorno da lei richiesto.");
            } 
+//this say that if the user insert a number greater than 31,it will catalogued as an error
 
       switch (newDate) {
-       
+  //case 1 is 1 March, case 2 is 2 March, etc..  
       case 1:
       System.out.println("Bollettino dell'1/03");
       System.out.println(g1.positivi + " positivi");
@@ -351,6 +399,62 @@ public class Italia
       System.out.println(g24.guariti + " guariti");
       System.out.println(g24.morti + " morti");
       System.out.println(g24.totali + " casi totali");
+      break;
+
+      case 25:
+      System.out.println("Bollettino del 25/03");
+      System.out.println(g25.positivi + " positivi");
+      System.out.println(g25.guariti + " guariti");
+      System.out.println(g25.morti + " morti");
+      System.out.println(g25.totali + " casi totali");
+      break;
+
+      case 26:
+      System.out.println("Bollettino del 26/03");
+      System.out.println(g26.positivi + " positivi");
+      System.out.println(g26.guariti + " guariti");
+      System.out.println(g26.morti + " morti");
+      System.out.println(g26.totali + " casi totali");
+      break;
+
+      case 27:
+      System.out.println("Bollettino del 27/03");
+      System.out.println(g27.positivi + " positivi");
+      System.out.println(g27.guariti + " guariti");
+      System.out.println(g27.morti + " morti");
+      System.out.println(g27.totali + " casi totali");
+      break;
+
+      case 28:
+      System.out.println("Bollettino del 28/03");
+      System.out.println(g28.positivi + " positivi");
+      System.out.println(g28.guariti + " guariti");
+      System.out.println(g28.morti + " morti");
+      System.out.println(g28.totali + " casi totali");
+      break;
+
+      case 29:
+      System.out.println("Bollettino del 29/03");
+      System.out.println(g29.positivi + " positivi");
+      System.out.println(g29.guariti + " guariti");
+      System.out.println(g29.morti + " morti");
+      System.out.println(g29.totali + " casi totali");
+      break;
+
+      case 30:
+      System.out.println("Bollettino del 30/03");
+      System.out.println(g30.positivi + " positivi");
+      System.out.println(g30.guariti + " guariti");
+      System.out.println(g30.morti + " morti");
+      System.out.println(g30.totali + " casi totali");
+      break;
+
+      case 31:
+      System.out.println("Bollettino del 31/03");
+      System.out.println(g31.positivi + " positivi");
+      System.out.println(g31.guariti + " guariti");
+      System.out.println(g31.morti + " morti");
+      System.out.println(g31.totali + " casi totali");
       break;
         }
       
