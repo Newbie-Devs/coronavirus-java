@@ -157,48 +157,6 @@ public class Italia
       g24.guariti = 8326 ;
       g24.morti = 6820 ;
       g24.totali = 69176 ;  
-
-      Italia g25 = new Italia();
-      g25.positivi = ;
-      g25.guariti = ;
-      g25.morti = ;
-      g25.totali = ;
-
-      Italia g26 = new Italia();
-      g26.positivi = ;
-      g26.guariti = ;
-      g26.morti = ;
-      g26.totali = ;
-
-      Italia g27 = new Italia();
-      g27.positivi = ;
-      g27.guariti = ;
-      g27.morti = ;
-      g27.totali = ;
-
-      Italia g28 = new Italia();
-      g28.positivi = ;
-      g28.guariti = ;
-      g28.morti = ;
-      g28.totali = ;
-
-      Italia g29 = new Italia();
-      g29.positivi = ;
-      g29.guariti = ;
-      g29.morti = ;
-      g29.totali = ;
-
-      Italia g30 = new Italia();
-      g30.positivi = ;
-      g30.guariti = ;
-      g30.morti = ;
-      g30.totali = ;
-
-      Italia g31 = new Italia();
-      g31.positivi = ;
-      g31.guariti = ;
-      g31.morti = ;
-      g31.totali = ;
         
       Scanner date =new Scanner (System.in);
       System.out.println("Scrivi il numero del giorno del bollettino che vuoi ti venga mostrato");
@@ -214,7 +172,7 @@ public class Italia
       switch (newDate) {
   //case 1 is 1 March, case 2 is 2 March, etc..  
       case 1:
-      System.out.println("Bollettino dell'1/03");
+      System.out.println("Bollettino dell'1 Marzo");
       System.out.println(g1.positivi + " positivi");
       System.out.println(g1.guariti + " guariti");
       System.out.println(g1.morti + " morti");
@@ -222,7 +180,7 @@ public class Italia
       break;
       
       case 2:
-      System.out.println("Bollettino del 2/03");
+      System.out.println("Bollettino del 2 Marzo");
       System.out.println(g2.positivi + " positivi");
       System.out.println(g2.guariti + " guariti");
       System.out.println(g2.morti + " morti");
@@ -230,7 +188,7 @@ public class Italia
       break;
       
       case 3:
-      System.out.println("Bollettino del 3/03");
+      System.out.println("Bollettino del 3 Marzo");
       System.out.println(g3.positivi + " positivi");
       System.out.println(g3.guariti + " guariti");
       System.out.println(g3.morti + " morti");
@@ -238,7 +196,7 @@ public class Italia
       break;
       
       case 4:
-      System.out.println("Bollettino del 4/03");
+      System.out.println("Bollettino del 4 Marzo");
       System.out.println(g4.positivi + " positivi");
       System.out.println(g4.guariti + " guariti");
       System.out.println(g4.morti + " morti");
@@ -246,7 +204,7 @@ public class Italia
       break;
           
       case 5:
-      System.out.println("Bollettino del 5/03");
+      System.out.println("Bollettino del 5 Marzo");
       System.out.println(g5.positivi + " positivi");
       System.out.println(g5.guariti + " guariti");
       System.out.println(g5.morti + " morti");
@@ -254,7 +212,7 @@ public class Italia
       break;
       
       case 6:
-      System.out.println("Bollettino del 6/03");
+      System.out.println("Bollettino del 6 Marzo");
       System.out.println(g6.positivi + " positivi");
       System.out.println(g6.guariti + " guariti");
       System.out.println(g6.morti + " morti");
@@ -262,7 +220,7 @@ public class Italia
       break;
       
       case 7:
-      System.out.println("Bollettino del 7/03");
+      System.out.println("Bollettino del 7 Marzo");
       System.out.println(g7.positivi + " positivi");
       System.out.println(g7.guariti + " guariti");
       System.out.println(g7.morti + " morti");
@@ -270,7 +228,7 @@ public class Italia
       break;
       
       case 8:
-      System.out.println("Bollettino del 8/03");
+      System.out.println("Bollettino del 8 Marzo");
       System.out.println(g8.positivi + " positivi");
       System.out.println(g8.guariti + " guariti");
       System.out.println(g8.morti + " morti");
@@ -282,7 +240,7 @@ public class Italia
       break;
       
       case 10:
-      System.out.println("Bollettino del 10/03");
+      System.out.println("Bollettino del 10 Marzo");
       System.out.println(g10.positivi + " positivi");
       System.out.println(g10.guariti + " guariti");
       System.out.println(g10.morti + " morti");
@@ -290,7 +248,7 @@ public class Italia
       break;
       
       case 11:
-      System.out.println("Bollettino del 11/03");
+      System.out.println("Bollettino del 11 Marzo");
       System.out.println(g11.positivi + " positivi");
       System.out.println(g11.guariti + " guariti");
       System.out.println(g11.morti + " morti");
@@ -298,7 +256,7 @@ public class Italia
       break;
       
       case 12:
-      System.out.println("Bollettino del 12/03");
+      System.out.println("Bollettino del 12 Marzo");
       System.out.println(g12.positivi + " positivi");
       System.out.println(g12.guariti + " guariti");
       System.out.println(g12.morti + " morti");
@@ -306,7 +264,7 @@ public class Italia
       break;
       
       case 13:
-      System.out.println("Bollettino del 13/03");
+      System.out.println("Bollettino del 13 Marzo");
       System.out.println(g13.positivi + " positivi");
       System.out.println(g13.guariti + " guariti");
       System.out.println(g13.morti + " morti");
@@ -314,7 +272,7 @@ public class Italia
       break;    
            
       case 14:
-      System.out.println("Bollettino del 14/03");
+      System.out.println("Bollettino del 14 Marzo");
       System.out.println(g14.positivi + " positivi");
       System.out.println(g14.guariti + " guariti");
       System.out.println(g14.morti + " morti");
@@ -322,7 +280,7 @@ public class Italia
       break;
       
       case 15:
-      System.out.println("Bollettino del 15/03");
+      System.out.println("Bollettino del 15 Marzo");
       System.out.println(g15.positivi + " positivi");
       System.out.println(g15.guariti + " guariti");
       System.out.println(g15.morti + " morti");
@@ -330,7 +288,7 @@ public class Italia
       break;
       
       case 16:
-      System.out.println("Bollettino del 16/03");
+      System.out.println("Bollettino del 16 Marzo");
       System.out.println(g16.positivi + " positivi");
       System.out.println(g16.guariti + " guariti");
       System.out.println(g16.morti + " morti");
@@ -338,7 +296,7 @@ public class Italia
       break;
       
       case 17:
-      System.out.println("Bollettino del 17/03");
+      System.out.println("Bollettino del 17 Marzo");
       System.out.println(g17.positivi + " positivi");
       System.out.println(g17.guariti + " guariti");
       System.out.println(g17.morti + " morti");
@@ -346,7 +304,7 @@ public class Italia
       break;
       
       case 18:
-      System.out.println("Bollettino del 18/03");
+      System.out.println("Bollettino del 18 Marzo");
       System.out.println(g18.positivi + " positivi");
       System.out.println(g18.guariti + " guariti");
       System.out.println(g18.morti + " morti");
@@ -354,7 +312,7 @@ public class Italia
       break;
       
       case 19:
-      System.out.println("Bollettino del 19/03");
+      System.out.println("Bollettino del 19 Marzo");
       System.out.println(g19.positivi + " positivi");
       System.out.println(g19.guariti + " guariti");
       System.out.println(g19.morti + " morti");
@@ -362,7 +320,7 @@ public class Italia
       break;
       
       case 20:
-      System.out.println("Bollettino del 20/03");
+      System.out.println("Bollettino del 20 Marzo");
       System.out.println(g20.positivi + " positivi");
       System.out.println(g20.guariti + " guariti");
       System.out.println(g20.morti + " morti");
@@ -370,7 +328,7 @@ public class Italia
       break;
       
       case 21:
-      System.out.println("Bollettino del 21/03");
+      System.out.println("Bollettino del 21 Marzo");
       System.out.println(g21.positivi + " positivi");
       System.out.println(g21.guariti + " guariti");
       System.out.println(g21.morti + " morti");
@@ -378,7 +336,7 @@ public class Italia
       break;
       
       case 22:
-      System.out.println("Bollettino del 22/03");
+      System.out.println("Bollettino del 22 Marzo");
       System.out.println(g22.positivi + " positivi");
       System.out.println(g22.guariti + " guariti");
       System.out.println(g22.morti + " morti");
@@ -386,7 +344,7 @@ public class Italia
       break;
               
       case 23:
-      System.out.println("Bollettino del 23/03");
+      System.out.println("Bollettino del 23 Marzo");
       System.out.println(g23.positivi + " positivi");
       System.out.println(g23.guariti + " guariti");
       System.out.println(g23.morti + " morti");
@@ -394,67 +352,11 @@ public class Italia
       break;        
       
       case 24:
-      System.out.println("Bollettino del 24/03");
+      System.out.println("Bollettino del 24 Marzo");
       System.out.println(g24.positivi + " positivi");
       System.out.println(g24.guariti + " guariti");
       System.out.println(g24.morti + " morti");
       System.out.println(g24.totali + " casi totali");
-      break;
-
-      case 25:
-      System.out.println("Bollettino del 25/03");
-      System.out.println(g25.positivi + " positivi");
-      System.out.println(g25.guariti + " guariti");
-      System.out.println(g25.morti + " morti");
-      System.out.println(g25.totali + " casi totali");
-      break;
-
-      case 26:
-      System.out.println("Bollettino del 26/03");
-      System.out.println(g26.positivi + " positivi");
-      System.out.println(g26.guariti + " guariti");
-      System.out.println(g26.morti + " morti");
-      System.out.println(g26.totali + " casi totali");
-      break;
-
-      case 27:
-      System.out.println("Bollettino del 27/03");
-      System.out.println(g27.positivi + " positivi");
-      System.out.println(g27.guariti + " guariti");
-      System.out.println(g27.morti + " morti");
-      System.out.println(g27.totali + " casi totali");
-      break;
-
-      case 28:
-      System.out.println("Bollettino del 28/03");
-      System.out.println(g28.positivi + " positivi");
-      System.out.println(g28.guariti + " guariti");
-      System.out.println(g28.morti + " morti");
-      System.out.println(g28.totali + " casi totali");
-      break;
-
-      case 29:
-      System.out.println("Bollettino del 29/03");
-      System.out.println(g29.positivi + " positivi");
-      System.out.println(g29.guariti + " guariti");
-      System.out.println(g29.morti + " morti");
-      System.out.println(g29.totali + " casi totali");
-      break;
-
-      case 30:
-      System.out.println("Bollettino del 30/03");
-      System.out.println(g30.positivi + " positivi");
-      System.out.println(g30.guariti + " guariti");
-      System.out.println(g30.morti + " morti");
-      System.out.println(g30.totali + " casi totali");
-      break;
-
-      case 31:
-      System.out.println("Bollettino del 31/03");
-      System.out.println(g31.positivi + " positivi");
-      System.out.println(g31.guariti + " guariti");
-      System.out.println(g31.morti + " morti");
-      System.out.println(g31.totali + " casi totali");
       break;
         }
       
